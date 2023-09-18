@@ -10,7 +10,7 @@ export class HomeComponent {
 
   scheduleCall() {
     console.log('Schedule');
-    Calendly.initPopupWidget({url: 'https://calendly.com/auxo-advisors/financial-advice'});
+    Calendly.initPopupWidget({url: 'https://calendly.com/ankitaugustus/introcall'});
     return false;
   }
 }
